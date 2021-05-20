@@ -19,7 +19,7 @@ Data Structures and Algorithms evaluation
 
 ## Technical Requirements
 
-1. Complete the functions inside the `exercises/` dire
+1. Complete the functions inside the `exercises/` directory.
 2. To test your code run `npm test`. Eventually all test should pass.
 
 ## Submission Guidelines
