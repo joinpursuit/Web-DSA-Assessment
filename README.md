@@ -1,6 +1,6 @@
-# Pursuit-DSA-Assessment
-
 [![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)
+
+# Pursuit-DSA-Assessment
 
 Data Structures and Algorithms evaluation
 
@@ -24,8 +24,8 @@ Data Structures and Algorithms evaluation
 
 ## Submission Guidelines
 
-- Must be submitted no later than **a specific time**.
-- Make a pull request to the repository
+- You should take no more than 1h 30m on this assessment (30 mins per exercise).
+- Make a pull request against the upstream repository [joinpursuit/Pursuit-DSA-Assessment](https://github.com/joinpursuit/Pursuit-DSA-Assessment)
 - For any questions reach out to @Alejo in the [Pursuit Core Workspace](https://pursuit-core.slack.com/)
 
 ## Resources
