@@ -24,8 +24,9 @@ Data Structures and Algorithms evaluation
 
 ## Submission Guidelines
 
-- You should take no more than 1h 30m on this assessment (30 mins per exercise).
+- You should take no more than **two and half** hours on this assessment (~45 mins per exercise).
 - Make a pull request against the upstream repository [joinpursuit/Web-DSA-Assessment](https://github.com/joinpursuit/Web-DSA-Assessment)
+  - If you don't know or you forgot how to make a pull request read [this tutorial](https://opensource.com/article/19/7/create-pull-request-github) or watch [this video](https://youtu.be/bEHdOnfevvw?t=550)
 - For any questions reach out to @Alejo in the [Pursuit Core Workspace](https://pursuit-core.slack.com/)
 
 ## Resources
