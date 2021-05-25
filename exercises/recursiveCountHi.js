@@ -21,7 +21,8 @@ Notes:
  * @return {number} The total number of "hi"s in the string
  */
 const recursiveCountHi = (str) => {
-
+   
+    
 }
 
 module.exports = recursiveCountHi

@@ -30,7 +30,43 @@ words[i] consists of lowercase English letters.
  * @return {string[]} An array of characters
  */
 const findCommonChars = (words) => {
+    let blueprint = createMap(words[0]);
+    let output = []
 
+    for(let word of words) {
+        let filter = {};
+        
+        for(let letter  of word) {
+            if(blueprint[letter]) {
+                blueprint[letter]--
+
+                if(filter[letter]) filter[letter]++
+                else filter[letter] = 1
+            }
+        }
+        blueprint = filter
+    }
+
+    for(let key in blueprint) {
+        let occurences = key.repeat(blueprint[key]).split('')
+        output.push(...occurences)
+    }
+
+    return output
+    
+
+};
+
+function createMap (word)  {
+    let map = {};
+    for(let letter of word) {
+        if(map[letter]) map[letter]+=1
+        else map[letter]=1
+    }
+
+    return map;
 }
+
+
 
 module.exports = findCommonChars

@@ -110,7 +110,7 @@ class LinkedList {
    * @return {string} 
    */
   toString() {
-
+ 
   }
 
   static fromArray(array) {
@@ -121,5 +121,6 @@ class LinkedList {
     return ll;
   }
 }
+
 
 module.exports = LinkedList;
