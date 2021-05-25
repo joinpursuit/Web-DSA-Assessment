@@ -114,14 +114,15 @@ class LinkedList {
     let LLString = ""
 
     while(currentNode) {
-      console.log(currentNode.value)
+
       LLString +=`${currentNode.value}->`
       currentNode = currentNode.next
+      
     }
     LLString += "null"
 
     return LLString
-    
+
   }
 
   static fromArray(array) {
