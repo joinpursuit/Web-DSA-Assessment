@@ -110,7 +110,18 @@ class LinkedList {
    * @return {string} 
    */
   toString() {
- 
+    let currentNode = this.head;
+    let LLString = ""
+
+    while(currentNode) {
+      console.log(currentNode.value)
+      LLString +=`${currentNode.value}->`
+      currentNode = currentNode.next
+    }
+    LLString += "null"
+
+    return LLString
+    
   }
 
   static fromArray(array) {
