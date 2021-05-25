@@ -22,6 +22,12 @@ Notes:
  */
 const recursiveCountHi = (str) => {
    
+    if(str.length < 2) return 0
+
+    const sub = str.substring(0,2);
+
+    if(sub === "hi")return 1 + recursiveCountHi(str.substring(1));
+    else return recursiveCountHi(str.substring(1));
     
 }
 
